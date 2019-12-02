@@ -1,0 +1,16 @@
+Package: tidyversestylenostrict
+Title: Tidyverse Style No Strict Option
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Denis",
+             family = "Roussel",
+             role = c("cre", "ctb"),
+             email = "droussel@centreon.com"))
+Description: Re export tidyverse style from styler disabling the strict option.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    styler
+RoxygenNote: 7.0.1
+Roxygen: list(markdown = TRUE)

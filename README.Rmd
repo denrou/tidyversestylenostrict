@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# tidyversestylenostrict
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of tidyversestylenostrict is to provide a `tidyverse_style` function where the `strict` option is disable by default.
+
+Why? In order to use [`precommit style-files`](https://github.com/lorenzwalthert/precommit/blob/master/inst/bin/style-files) without messing with all my files already created.
+
+## Installation
+
+You can install the released version of tidyversestylenostrict from [github](https://github.com/denrou/tidyversestylenostrict) with:
+
+``` r
+remotes::install_github("denrou/tidyversestylenostrict")
+```
